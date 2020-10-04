@@ -1,0 +1,39 @@
+body {
+  background-color: #fff;
+}
+
+.container {
+  background-color: rgb(230, 236, 236);
+  border-radius: 10px;
+  height: 500px;
+  margin: 0 auto;
+  width: 1000px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 60px;
+  display: flex;
+}
+
+.container_navTopArea {
+  background-color: rgb(233, 233, 149);
+}
+
+.container_navMiddleArea {
+  background-color: rgb(218, 238, 218);
+}
+
+.container_navBottomPlace {
+  background-color: rgb(84, 84, 114);
+}
+
+.logo {
+  width: 70%;
+  position: absolute;
+  left: -520px;
+  transform: rotate(10deg);
+  /* background-color: rgb(165, 160, 161); */
+}
+
+.container_navTopArea_navTopMenu {
+  list-style-type: none;
+}
